@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import CartIcon from "./CartIcon";
 
 const HeaderCartButton = () =>{
- const[loading, setLoading]=useState(false)
- const[amount, setAmount]=useState()
+ const[loading, setLoading] = useState(false)
+ const[amount, setAmount] = useState()
 
 let getItem=[]
 

@@ -22,7 +22,7 @@ const Header = ()=>{
            </ul>
            <Link to='/cart'><HeaderCartButton/></Link>
            <Link to='/modal'><div className='hamburger'>
-           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15"><path fill="#242A45" fill-rule="evenodd" d="M0 0h18v3H0V0zm0 6h18v3H0V6zm0 6h18v3H0v-3z"/></svg>
+           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15"><path fill="#242A45" fillRule="evenodd" d="M0 0h18v3H0V0zm0 6h18v3H0V6zm0 6h18v3H0v-3z"/></svg>
            </div></Link>
            </header>
           
